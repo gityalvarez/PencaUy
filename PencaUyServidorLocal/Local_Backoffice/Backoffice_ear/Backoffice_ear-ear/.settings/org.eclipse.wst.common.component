@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Backoffice_ear-ear">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="Backoffice_ear-web.war" deploy-path="/" handle="module:/resource/Backoffice_ear-web/Backoffice_ear-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Backoffice_ear-services.war" deploy-path="/" handle="module:/resource/Backoffice_ear-services/Backoffice_ear-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Backoffice_ear-ejb.jar" deploy-path="/" handle="module:/resource/Backoffice_ear-ejb/Backoffice_ear-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

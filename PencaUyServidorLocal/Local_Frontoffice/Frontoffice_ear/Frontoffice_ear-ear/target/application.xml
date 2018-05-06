@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>Frontoffice_ear-ear</display-name>
+  <module>
+    <web>
+      <web-uri>Frontoffice_ear-web.war</web-uri>
+      <context-root>/Frontoffice_ear-web</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>Frontoffice_ear-services.war</web-uri>
+      <context-root>/Frontoffice_ear-services</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>Frontoffice_ear-ejb.jar</ejb>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
